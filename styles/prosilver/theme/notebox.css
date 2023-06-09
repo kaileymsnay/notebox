@@ -1,0 +1,35 @@
+/* Generic colored boxes */
+.note-box {
+	font-family: "Lucida Grande", Verdana, Helvetica, Arial, sans-serif;
+	background-color: #ebebeb;
+	border: 1px solid #bbb;
+	color: #333;
+	border-radius: 5px;
+	font-size: 12px;
+	margin-bottom: 10px;
+	padding: 7px;
+}
+
+.note-box.blue {
+	background-color: #e0eeff;
+	border-color: #6b92bd;
+	color: #115098;
+}
+
+.note-box.yellow {
+	background-color: #fff1e1;
+	border-color: #cd7900;
+	color: #333300;
+}
+
+.note-box.green {
+	background-color: #e5ffdf;
+	border-color: #43a347;
+	color: #043300;
+}
+
+.note-box.red {
+	background-color: #ffdfdf;
+	border-color: #a30004;
+	color: #330002;
+}
